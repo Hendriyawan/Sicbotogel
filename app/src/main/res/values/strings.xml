@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sicbotogel</string>
+    <string name="text_pemberihatuan">PEMBERITAHUAN</string>
+    <string name="text_view_all_notification">0</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name">Pemberitahuan</string>
+    <string name="symbol_readed">\u2713</string>
+    <string name="text_empty_notification">Tidak Ada Pemberitahuan</string>
+    <string name="notification_hirtory_label">Pemberitahuan</string>
+    <string name="view_notification_label">Detail</string>
+</resources>
