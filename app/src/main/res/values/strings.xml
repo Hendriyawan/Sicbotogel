@@ -8,4 +8,7 @@
     <string name="text_empty_notification">Tidak Ada Pemberitahuan</string>
     <string name="notification_hirtory_label">Pemberitahuan</string>
     <string name="view_notification_label">Detail</string>
+    <string name="text_title">%s</string>
+    <string name="text_body">%s\n</string>
+    <string name="text_date">%s</string>4
 </resources>

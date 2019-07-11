@@ -63,9 +63,9 @@ public class ViewNotification extends AppCompatActivity {
      */
     private void initView() {
         Notifications notifications = getIntent().getParcelableExtra("parcelable_notification");
-        textViewTitle.setText(notifications.getTitle());
-        textViewBody.setText(notifications.getBody());
-        textViewDate.setText(notifications.getDate());
+        textViewTitle.setText(String.format(getResources().getString(R.string.text_title), notifications.getTitle()));
+        textViewBody.setText(String.format(getResources().getString(R.string.text_body), notifications.getBody()));
+        textViewDate.setText(String.format(getResources().getString(R.string.text_date), notifications.getDate()));
 
         if (notifications.getStatus_read().equals("unread")) {
             Notifications notificationsReaded = new Notifications();
